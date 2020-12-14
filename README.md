@@ -21,7 +21,7 @@ B --> C(Read)
 C --> D(Broadcast)
 D --> B
 ```
-- Idle: Stage when the system waiting, with all the external devices shutdow, a the timeout to start the reading cicle.
+- Idle: Stage when the system is waiting with all the external devices shutdow, until the timeout to start the reading cicle.
 - Read: The system reads all sensors and buffers the data in JSON format.
 - Broadcast: The system broadcast all the buffered data through LoRa and BLE module.
 
