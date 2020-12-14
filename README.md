@@ -2,14 +2,14 @@
 ## Requirements
 Functional requirements:
 
-- RF.01 The system must read data from external sensors. 
-- RF.02 The system must broadcast the data collected from sensors through a LoRa module.
-- RF.03 The system must broadcast the data collected from sensors through a BLE module.
+- FR.01 The system must read data from external sensors. 
+- FR.02 The system must broadcast the data collected from sensors through a LoRa module.
+- FR.03 The system must broadcast the data collected from sensors through a BLE module.
 
 Non-functional requirements:
 
-- RF.01 The system must be compatible with DHT11 sensor.
-- RF.02 The system must be implemented in a ESP32 board.
+- NFR.01 The system must be compatible with DHT11 sensor.
+- NFR.02 The system must be implemented in a ESP32 board.
 
 
 ## Flow chart
