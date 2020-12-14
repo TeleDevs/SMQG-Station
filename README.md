@@ -9,7 +9,6 @@ Functional requirements:
 Non-functional requirements:
 
 - NFR.01 The system must be compatible with DHT11 sensor.
-- NFR.02 The system must be implemented in a ESP32 board.
 
 
 ## Flow chart
