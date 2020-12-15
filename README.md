@@ -30,4 +30,4 @@ D --> B
 |----------------|-------------------------------|-----------------------------|
 |DHT11 reading   |Adahfruit                      |https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/ |
 |BLE broadcasting     |XXXX | XXXX |
-|LoRa broadcasting    |XXXX | XXXX |
+|LoRa broadcasting    | Sandeep Mistry | https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/ |
