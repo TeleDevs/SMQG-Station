@@ -5,7 +5,7 @@
 
 #define DHTPIN A5 // Pino DATA do Sensor ligado na porta Analogica A5
 #define DHTTYPE DHT11 // DHT 11
-#define time_cont 5000 // 3600000 1 em 1 hora -- 21600000 de 6 em 6 hrs
+#define time_cont 1800000 // 3600000 1 em 1 hora -- 21600000 de 6 em 6 hrs
 
 //const unsigned long DEFAULT_TIME = 1618800634; // 19 Abril 2021
 
@@ -64,7 +64,7 @@ void loop()
 void read_sensor()
 {
  if (millis() - ContSensor >= time_cont){
-      float h = dht.readHumidity();
+      int h = dht.readHumidity();
       float t = dht.readTemperature();
 
       array_temp[cont_read] = int(t);
@@ -91,7 +91,6 @@ void read_sensor()
       }
 
       ContSensor = millis();
-     
    }
 }
 
@@ -105,7 +104,7 @@ void read_serial()
        
       if (b1 == '\n'){ //Se o dado atual for um pulador de linha (\n)
         if(command[7] == '1'){
-          float h = dht.readHumidity();
+          int h = dht.readHumidity();
           float t = dht.readTemperature();
           
           // Mostra os valores lidos, na serial
