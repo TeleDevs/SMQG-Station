@@ -210,17 +210,7 @@ void save_data()
       end_minuto = end_minuto + 9;
       end_segundo = end_segundo + 9;
     }
-    //------>>ignorar codigo seguinte!!!
-    //dados salvos do tipo--> DATE:TEMP:UMIDADE\n
-  //pegar a data das leituras
-  //data_day.concat(DATE);
-  /*data_day.concat(":");
-  for (int i =0 ; i++ ; i == 3){
-     data_day.concat(array_temp[i]);
-     data_day.concat(":");
-     data_day.concat(array_umid[i]);
-     data_day.concat("\n");
-  }*/
+    
   
 }
 
